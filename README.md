@@ -5,3 +5,5 @@
 [![Downloads](https://flat.badges.ml/:subject/:name)](https://badges.ml/#:name)
 
  Make your code think it got a Visa and moved to Tokyo
+
+[![](https://badgen.net/github/license/micromatch/micromatch)]
