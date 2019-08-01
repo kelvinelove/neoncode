@@ -10,7 +10,7 @@ A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and sha
 
 ### Installation
 1. Select **Brackets > File > Extension Manager...**
-2. Search [Fun Live Color](https://github.com/seanDeee/glowing-brackets-theme/).
+2. Search [Neon Code](https://github.com/kelvinelove/neoncode/).
 3. Click on the **Install** button.
 
 **OR**
