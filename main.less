@@ -1,0 +1,191 @@
+// Overall Colors
+@comment: #d2d2d2;
+@string: #d0a74c;
+@string2: #fd55d7;
+
+@background: #181A21;
+@foreground: #dac1fd;
+@nonactive: desaturate(darken(@foreground, 50%), 70%);
+
+// Selection, Active-line, Matching
+@selection-focused: fade(#3d7ffc, 50%);
+@selection-unfocused: darken(@selection-focused, 30%);
+@activeline-bgcolor: lighten(@background, 14%);
+@matching-bracket: @background;
+@matching-bracket-bg: @foreground;
+@matching-tag-bg: desaturate(darken(@foreground, 30%), 20%);
+
+// Gutters and Line number
+@gutters-line: @nonactive;
+@line-number: @nonactive;
+@line-number-active: @foreground;
+
+.shadow(@font-color, @shadow-color: @font-color, @dark: 35%, @shadow-property: text-shadow) {
+    @offset: 1px;
+    @radius: 8px;
+    @sat: 50%;
+
+    color: @font-color  !important;
+    @{shadow-property}:
+        0+@offset 0+@offset @radius darken(saturate(@shadow-color, @sat), @dark),
+        0+@offset 0-@offset @radius darken(saturate(@shadow-color, @sat), @dark),
+        0-@offset 0+@offset @radius darken(saturate(@shadow-color, @sat), @dark),
+        0-@offset 0-@offset @radius darken(saturate(@shadow-color, @sat), @dark),
+         !important;
+}
+
+.purple-shadow() {
+    .shadow(#f6acff, #c400ff, 5%);
+}
+
+.orange-shadow() {
+    .shadow(#fdb87d, #fd6e15, 10%);
+}
+
+.yellow-shadow() {
+    .shadow(#ffffa9, #fff72a, 20%);
+}
+
+.blue-shadow() {
+    .shadow(#9cddfa, #0811f5, 0%);
+}
+
+.green-shadow() {
+    .shadow(#85f0cb, #32d85f, 10%);
+}
+
+.red-shadow() {
+    .shadow(#ff3e3e, #f00, 10%);
+}
+
+.white-shadow() {
+    .shadow(#FFF, #EEE, 10%);
+}
+
+
+.CodeMirror .cm-keyword,
+.CodeMirror .cm-atom,
+.CodeMirror .cm-number,
+.CodeMirror .cm-variable-3,
+    {
+    .purple-shadow();
+}
+
+.CodeMirror .cm-def,
+.CodeMirror .cm-tag,
+.CodeMirror .cm-meta,
+.CodeMirror .cm-qualifier,
+    {
+    .orange-shadow();
+}
+
+.CodeMirror .cm-variable {
+    .yellow-shadow();
+}
+
+.CodeMirror .cm-variable-2 {
+    .blue-shadow();
+}
+
+.CodeMirror .cm-property,
+.CodeMirror .cm-attribute,
+    {
+    .green-shadow();
+}
+
+.CodeMirror .cm-global-variable {
+    .red-shadow();
+}
+
+.CodeMirror .cm-string {
+    color: @string
+}
+
+.CodeMirror .cm-string-2 {
+    color: @string2
+}
+
+.CodeMirror .cm-operator {
+    color: @foreground;
+}
+
+.CodeMirror .cm-comment {
+    .white-shadow();
+}
+
+
+// Default background and text color
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+// Selection
+.CodeMirror .CodeMirror-selected {
+    background: @selection-unfocused;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: @selection-focused;
+}
+
+// Gutter
+.CodeMirror .CodeMirror-gutters {
+    background-color: @background;
+    border-right: 1px solid @gutters-line;
+}
+
+// Line number
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    .shadow(@line-number-active);
+}
+
+.CodeMirror-gutter-elt {
+    color: @line-number  !important;
+}
+
+// Matching
+.CodeMirror .CodeMirror-matchingbracket {
+    background-color: @matching-bracket-bg;
+    .shadow(@matching-bracket, @matching-bracket-bg,
+        @dark: 35%,
+        @shadow-property: box-shadow);
+}
+
+.CodeMirror-matchingtag {
+    background: @matching-tag-bg;
+}
+
+// Adjust the color of attribute value for highlighted HTML tag.
+.CodeMirror-matchingtag.cm-string {
+    color: lighten(@string, 20%);
+}
+
+// Active line
+.CodeMirror-activeline-background,
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: @activeline-bgcolor  !important;
+}
+
+// Cursor
+.CodeMirror .CodeMirror-cursor {
+    border-left: 1px solid @foreground  !important;
+}
+
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @foreground;
+    width: 1.2ex;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+
+#image-holder {
+    color: @foreground;
+}

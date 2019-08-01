@@ -1,0 +1,13 @@
+{
+  "title": "Neon Code",
+  "name": "kelvinelove-neon-code",
+  "description": "Code like your code is in Tokyo. Created by @kelvinelove",
+  "version": "0.0.5",
+  "author": "@kelvinelove",
+  "license": "MIT",
+  "homepage": "https://github.com/hmccabe2002/NeonLights.git",
+  "theme": {
+    "file": "main.less",
+    "dark": true
+  }
+}
