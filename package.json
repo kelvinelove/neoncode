@@ -1,13 +1,15 @@
 {
+    "name": "kelvinelove.NeonCode",
     "title": "Neon Code",
-    "name": "kelvinelove-neon-code",
     "description": "Code like your code is in Tokyo. Created by @kelvinelove",
-    "version": "0.0.5",
-    "author": "@kelvinelove",
-    "license": "MIT",
     "homepage": "https://github.com/kelvinelove/NeonCode.git",
+    "version": "0.5.0",
+    "author": "@kelvinelove <kchawora@yahoo.com> (https://github.com/kelvinelove)",
+    "license": "MIT",
     "theme": {
-        "file": "main.less",
-        "dark": true
-    }
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
 }
