@@ -8,9 +8,9 @@
 
 A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and shadows.
 
-### Installation
+### How to install
 1. Select **Brackets > File > Extension Manager...**
-2. Search [Neon Code](https://github.com/kelvinelove/neoncode/).
+2. Search for [Neon Code](https://github.com/kelvinelove/neoncode/).
 3. Click on the **Install** button.
 
 **OR**
