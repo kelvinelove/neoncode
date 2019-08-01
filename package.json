@@ -3,7 +3,7 @@
     "title": "Neon Code",
     "description": "Wanna make your code feel like it's in Tokyo at night..? Here's a dark theme with neon effects... ",
     "homepage": "https://github.com/kelvinelove/neoncode.git",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "engines.brackets": "1.14.0-17740",
     "author": "@kelvinelove (https://github.com/kelvinelove)",
     "license": "MIT",
