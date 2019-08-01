@@ -19,3 +19,6 @@ A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and sha
 2. In Brackets, navigate to **Help > Show Extensions Folder > User**
 3. Place the **.zip** file in the **User** folder
 4. Refresh Brackets and select **Fun Live Color** from **View > Themes...**
+
+
+Upcoming update: Adding Screenshots and normalizing color palette
