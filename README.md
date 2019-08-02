@@ -35,4 +35,4 @@ JavaScript
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss4.jpg?raw=true "How JS looks in the theme")](#)
 
 Python
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss5.jpg?raw=true "Python")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss5.jpg?raw=true "Python")](#)
