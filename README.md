@@ -1,10 +1,6 @@
-# NeonCode
+# NeonCode 🖥
 
-<!--[![Version](https://flat.badges.ml/kelvinelove.NeonCode/version.svg)](https://brackets-extension-badges.github.io#kelvinelove.NeonCode)-->
-
- Make your code think it got a Visa and moved to Tokyo
-
-<!--[![](https://badgen.net/github/license/micromatch/micromatch)]-->
+ Make your code think it got a Visa and moved to Tokyo...
 
 A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and shadows.
 
@@ -36,7 +32,7 @@ Markdown
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss3.jpg "Markdown")](#)
 
 JavaScript
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss4.jpg "How JS looks in the theme")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss4.jpg?raw=true "How JS looks in the theme")](#)
 
 Python
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss5.jpg "Python")](#)
