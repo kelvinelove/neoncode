@@ -21,4 +21,21 @@ A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and sha
 4. Refresh Brackets and select **Fun Live Color** from **View > Themes...**
 
 
-Upcoming update: Adding Screenshots and normalizing color palette
+## Screenshots
+
+This is how the theme looks:
+
+HTML
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss1.jpg "How HTML looks when the theme is applied")](#)
+
+CSS
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss2.jpg "How CSS and LESS looks")](#)
+
+Markdown
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss3.jpg "Markdown")](#)
+
+JavaScript
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss4.jpg "How JS looks in the theme")](#)
+
+Python
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss5.jpg "Python")](#)
