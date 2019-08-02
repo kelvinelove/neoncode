@@ -26,7 +26,7 @@ A [Brackets](https://github.com/adobe/brackets/) theme with neon effects and sha
 This is how the theme looks:
 
 HTML
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss1.jpg?raw=true "How HTML looks when the theme is applied")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss1.jpg "How HTML looks when the theme is applied")](#)
 
 
 CSS
