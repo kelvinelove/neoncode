@@ -29,7 +29,7 @@ CSS
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss2.jpg?raw=true "How CSS and LESS looks")](#)
 
 Markdown
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss3.jpg?raw=true "Markdown")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss3.jpg?raw=true "Markdown")](#)
 
 JavaScript
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss4.jpg?raw=true "How JS looks in the theme")](#)
