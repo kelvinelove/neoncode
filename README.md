@@ -26,13 +26,13 @@ HTML
 
 
 CSS
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss2.jpg "How CSS and LESS looks")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss2.jpg?raw=true "How CSS and LESS looks")](#)
 
 Markdown
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss3.jpg "Markdown")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss3.jpg?raw=true "Markdown")](#)
 
 JavaScript
 [![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/ss4.jpg?raw=true "How JS looks in the theme")](#)
 
 Python
-[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss5.jpg "Python")](#)
+[![Screenshot](https://github.com/kelvinelove/neoncode/blob/master/assets/img/ss5.jpg?raw=true "Python")](#)
