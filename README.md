@@ -2,7 +2,7 @@
 
  Make your code think it got a Visa and moved to Tokyo...
 
-A [Brackets](https://github.com/adobe/brackets) theme with neon effects and shadows.
+A theme for @Adobe's [Brackets](https://github.com/adobe/brackets) IDE with neon effects and shadows.
 
 ## How to install
 1. Select **Brackets > File > Extension Manager...**
