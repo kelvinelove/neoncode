@@ -5,11 +5,11 @@
 
 //bg ne fg
 @background: #0e0e12;
-@foreground: #b9ffff;
+@foreground: #ffa2e6;
 @nonactive: desaturate(darken(@foreground, 50%), 70%);
 
 // Selection, Active-line, Matching
-@selection-focused: fade(#3d7ffc, 50%);
+@selection-focused: fade(#c088ea, 50%);
 @selection-unfocused: darken(@selection-focused, 30%);
 @activeline-bgcolor: lighten(@background, 14%);
 @matching-bracket: @background;
@@ -37,23 +37,39 @@
 
 //Ma shadows e text
 .purple-shadow() {
-    .shadow(#f6acff, #c400ff, 5%);
+    .shadow(#f6acff, #d13aff, 5%);
+}
+
+.purp-shadow() {
+    .shadow(#f6acff, #d13aff, 5%);
 }
 
 .orange-shadow() {
     .shadow(#fdb87d, #fd6e15, 10%);
 }
 
+.blu-shadow() {
+    .shadow(#4848ff, #0202a3, 10%);
+}
+
 .yellow-shadow() {
-    .shadow(#ffffa9, #fff72a, 20%);
+    .shadow(#ffffa9, #fff855, 20%);
 }
 
 .blue-shadow() {
     .shadow(#9cddfa, #0811f5, 0%);
 }
 
-.green-shadow() {
+.liteblue-shadow() {
+    .shadow(#9cddfa, #03a08e, 0%);
+}
+
+/*.green-shadow() {
     .shadow(#85f0cb, #32d85f, 10%);
+}*/
+
+.green-shadow() {
+    .shadow(#6efcaa, #007b21, 10%);
 }
 
 .red-shadow() {
@@ -78,7 +94,8 @@
 .CodeMirror .cm-meta,
 .CodeMirror .cm-qualifier,
     {
-    .orange-shadow();
+    /*.orange-shadow();*/
+    .blu-shadow();
 }
 
 .CodeMirror .cm-variable {
@@ -86,7 +103,8 @@
 }
 
 .CodeMirror .cm-variable-2 {
-    .blue-shadow();
+    /*.blue-shadow();*/
+    .liteblue-shadow();
 }
 
 .CodeMirror .cm-property,
